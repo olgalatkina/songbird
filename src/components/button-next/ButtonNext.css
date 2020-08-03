@@ -1,0 +1,24 @@
+.next-button {
+  width: 100%;
+  padding: 0.6rem 1.2rem;
+  text-align: center;
+  color: #fff;
+  background-color: #303030;
+  border: 0.1rem solid #555;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.next-button:hover {
+  background-color: #444;
+}
+
+.next-button_active {
+  background-color: #008966;
+  border: 0.1rem solid #008966;
+}
+
+.next-button_active:hover {
+  background-color: #00bc8c;
+}

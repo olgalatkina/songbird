@@ -1,0 +1,15 @@
+.random-bird__audio {
+  border-top: 0.1rem solid rgb(85, 85, 85);
+  padding: 1.4rem 0.4rem 2rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.controls__btn-play {
+  margin-right: 2rem;
+  margin-bottom: 0.4rem;
+}

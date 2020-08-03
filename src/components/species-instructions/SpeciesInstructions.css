@@ -1,0 +1,22 @@
+.species__instructions {
+  border: 0.1rem solid #555;
+  border-radius: 0.4rem;
+  background-color: #303030;
+  margin-bottom: 2.4rem;
+}
+
+.species__instructions {
+  display: block;
+  display: none;
+  padding: 1.6rem 1.6rem 3.2rem;
+}
+
+.species__text {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .species__instructions {
+    min-height: 30.7rem;
+  }
+}

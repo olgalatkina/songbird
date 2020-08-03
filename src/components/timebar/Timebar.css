@@ -1,0 +1,38 @@
+.timebar {
+  position: relative;
+  width: 100%;
+}
+
+.timebar__line {
+  width: 100%;
+  height: 0.4rem;
+  background: linear-gradient(
+    to right,
+    rgb(0, 188, 140) 0%,
+    rgb(61, 133, 140) 0%,
+    rgb(115, 115, 115) 0%,
+    rgb(115, 115, 115) 100%
+  );
+}
+
+.timebar__circle {
+  background-color: grey;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  transform: translate(-50%, calc(-50% + 2px));
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.timebar__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: #d3d3d3;
+  margin-top: 1rem;
+}

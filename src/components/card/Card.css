@@ -1,0 +1,79 @@
+.card {
+  border: 0.1rem solid #555;
+  border-radius: 0.4rem;
+  background-color: #303030;
+  padding: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.card__image {
+  margin: 0 auto 2.4rem;
+  width: 20rem;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.card__info {
+  text-align: center;
+}
+
+.card__title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.card__latin {
+  font-style: italic;
+  padding: 0.4rem;
+  border-top: 0.1rem solid #555;
+}
+
+.card__link {
+  color: #00bc8c;
+}
+
+.card__link:visited {
+  color: #008966;
+}
+
+@media (min-width: 576px) {
+  .card__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+  }
+
+  .card__image {
+    margin: 0 4rem 0 0;
+  }
+
+  .card__info {
+    width: 100%;
+  }
+
+  .card__title,
+  .card__latin {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .card__wrapper {
+    flex-direction: column;
+  }
+
+  .card__image {
+    margin: 0 auto 2.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card__wrapper {
+    flex-direction: row;
+  }
+
+  .card__image {
+    margin: 0 4rem 0 0;
+  }
+}

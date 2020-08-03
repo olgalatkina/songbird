@@ -1,0 +1,18 @@
+.header {
+  padding: 2.2rem 0 2.4rem;
+}
+
+.logo__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.logo {
+  width: 20rem;
+  height: 5.5rem;
+  background-image: url("../../assets/images/logo_songbird.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,14 @@
+.species .species__list {
+  border: 0.1rem solid #555;
+  border-radius: 0.4rem;
+  background-color: #303030;
+  margin-bottom: 2.4rem;
+}
+
+@media (min-width: 768px) {
+  .species__list {
+    width: 32.6rem;
+    flex-shrink: 0;
+    max-height: 30.7rem;
+  }
+}

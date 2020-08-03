@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .species {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .species__info {
+    margin-left: 2.4rem;
+    flex-grow: 1;
+  }
+}

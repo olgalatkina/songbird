@@ -1,0 +1,11 @@
+.pagination__item {
+  flex: auto;
+  text-align: center;
+  background-color: #008966;
+  padding: 0.8rem 1.4rem;
+  font-weight: 400;
+}
+
+.pagination__item:active {
+  background-color: #00bc8c;
+}

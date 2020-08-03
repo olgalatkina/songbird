@@ -1,0 +1,47 @@
+.play-button {
+  position: relative;
+  transition: 0.2s;
+  width: 4rem;
+  height: 4rem;
+  border: 0.2rem solid #00bc8c;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  flex-shrink: 0;
+}
+
+.play-button::before {
+  position: absolute;
+  content: "";
+  top: 0.8rem;
+  left: 1.2rem;
+  width: 0;
+  height: 0;
+  border-left: 1.6rem solid #00bc8c;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-right: 0;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.play-button_stop::before,
+.play-button_stop::after {
+  position: absolute;
+  content: "";
+  top: 0.9rem;
+  left: 1.2rem;
+  width: 0.4rem;
+  height: 1.8rem;
+  background: #00bc8c;
+  border-radius: 0.1rem;
+  border: 0;
+}
+
+.play-button_stop::after {
+  left: 2rem;
+}
